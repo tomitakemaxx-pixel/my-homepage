@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>シルクフラワーの山久 | 枯れない胡蝶蘭 — 選べる6色・立札/ラッピング無料</title>
+<meta name="description" content="お祝いの気持ちを、いつまでも美しく。シルクフラワー(造花)の胡蝶蘭は水やり不要で枯れる心配なし。選べる6色、立札・ラッピング無料。開店祝い・開業祝い・就任祝いに。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌸</text></svg>">
+</head>
+<body>
+
+<!-- ローディング -->
+<div class="loader" id="loader">
+  <div class="loader__inner">
+    <span class="loader__kanji">祝</span>
+    <span class="loader__line"></span>
+  </div>
+</div>
+
+<!-- ヘッダー -->
+<header class="header" id="header">
+  <div class="header__inner">
+    <a href="#top" class="header__logo">
+      <span class="header__logo-en">YAMAKYU</span>
+      <span class="header__logo-ja">シルクフラワーの山久</span>
+    </a>
+    <nav class="header__nav">
+      <a href="#about">想い</a>
+      <a href="#colors">選べる6色</a>
+      <a href="#features">こだわり</a>
+      <a href="#scenes">贈る場面</a>
+      <a href="#spec">商品詳細</a>
+      <a href="#order" class="header__cta">ご注文</a>
+    </nav>
+    <button class="header__burger" id="burger" aria-label="メニュー">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ヒーロー -->
+<section class="hero" id="top">
+  <div class="hero__bg"></div>
+  <div class="hero__petals" id="petals"></div>
+  <div class="hero__inner">
+    <div class="hero__text">
+      <p class="hero__eyebrow reveal">SILK FLOWER PHALAENOPSIS</p>
+      <h1 class="hero__title">
+        <span class="hero__title-line"><span>お祝いの気持ちを、</span></span>
+        <span class="hero__title-line"><span>いつまでも<em>美しく</em>。</span></span>
+      </h1>
+      <p class="hero__lead reveal">
+        水やり不要、枯れる心配なし。<br>
+        本物と見紛う気品をたたえた、シルクフラワーの胡蝶蘭。
+      </p>
+      <div class="hero__badges reveal">
+        <span class="badge"><strong>選べる</strong>6色</span>
+        <span class="badge">立札<strong>無料</strong></span>
+        <span class="badge">ラッピング<strong>無料</strong></span>
+      </div>
+      <div class="hero__actions reveal">
+        <a href="#order" class="btn btn--gold">ご注文はこちら</a>
+        <a href="#colors" class="btn btn--ghost">カラーを見る</a>
+      </div>
+    </div>
+    <div class="hero__visual">
+      <div class="hero__orchid-frame">
+        <div class="orchid-stage" id="heroOrchid"></div>
+        <div class="hero__frame-ring"></div>
+      </div>
+    </div>
+  </div>
+  <div class="hero__scroll">
+    <span>SCROLL</span>
+    <span class="hero__scroll-line"></span>
+  </div>
+</section>
+
+<!-- 想い -->
+<section class="about section" id="about">
+  <div class="section__inner">
+    <div class="about__grid">
+      <div class="about__text">
+        <p class="section__eyebrow reveal">PHILOSOPHY</p>
+        <h2 class="section__title reveal">祝福のかたちは、<br>色褪せない。</h2>
+        <p class="about__lead reveal">
+          開店、開業、就任——。人生の節目に贈られる胡蝶蘭は、「幸福が飛んでくる」という花言葉を持つ、祝福の象徴です。
+        </p>
+        <p class="about__body reveal">
+          けれど生花は、どんなに美しくてもいつか枯れてしまうもの。山久のシルクフラワーは、熟練の目で選び抜いた上質な素材で、胡蝶蘭の凛とした佇まいを再現しました。水やりも、植え替えも、枯らしてしまう心配もいりません。贈られた方の空間で、お祝いの日の輝きをいつまでも保ち続けます。
+        </p>
+        <div class="about__stats reveal">
+          <div class="stat">
+            <span class="stat__num" data-count="0">0</span>
+            <span class="stat__label">水やり回数</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num stat__num--inf">∞</span>
+            <span class="stat__label">美しさの持続</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num" data-count="6">0</span>
+            <span class="stat__label">選べるカラー</span>
+          </div>
+        </div>
+      </div>
+      <div class="about__visual reveal">
+        <div class="about__img-frame">
+          <div class="orchid-stage orchid-stage--small" id="aboutOrchid"></div>
+          <span class="about__img-caption">Phalaenopsis — 花言葉「幸福が飛んでくる」</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 選べる6色 -->
+<section class="colors section section--dark" id="colors">
+  <div class="section__inner">
+    <p class="section__eyebrow reveal">COLOR VARIATION</p>
+    <h2 class="section__title reveal">想いに寄り添う、<br class="sp-only">選べる6色。</h2>
+    <p class="colors__lead reveal">贈る相手やお店の雰囲気に合わせて、お好みの色をお選びいただけます。</p>
+
+    <div class="colors__stage reveal">
+      <div class="orchid-stage orchid-stage--large" id="colorOrchid"></div>
+      <p class="colors__current" id="colorName">ホワイト<small>— 清楚・格調高く、どんな場面にも</small></p>
+    </div>
+
+    <div class="colors__picker reveal" id="colorPicker" role="tablist" aria-label="カラー選択">
+      <button class="color-chip is-active" data-color="white" style="--chip:#f7f5ef" aria-label="ホワイト"><span></span>ホワイト</button>
+      <button class="color-chip" data-color="pink" style="--chip:#f2b9cd" aria-label="ピンク"><span></span>ピンク</button>
+      <button class="color-chip" data-color="redlip" style="--chip:#f3e9e2" aria-label="紅白" ><span></span>紅白</button>
+      <button class="color-chip" data-color="purple" style="--chip:#b56bb8" aria-label="パープル"><span></span>パープル</button>
+      <button class="color-chip" data-color="yellow" style="--chip:#f2d35c" aria-label="イエロー"><span></span>イエロー</button>
+      <button class="color-chip" data-color="magenta" style="--chip:#c2358f" aria-label="マゼンタ"><span></span>マゼンタ</button>
+    </div>
+  </div>
+</section>
+
+<!-- こだわり -->
+<section class="features section" id="features">
+  <div class="section__inner">
+    <p class="section__eyebrow reveal">FEATURES</p>
+    <h2 class="section__title reveal">山久のこだわり</h2>
+    <div class="features__grid">
+      <article class="feature reveal">
+        <div class="feature__icon">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M24 6c6 6 12 10 12 19a12 12 0 1 1-24 0c0-9 6-13 12-19Z"/><path d="M24 40v-9m0 0c-2-2-5-3-7-3m7 3c2-2 5-3 7-3" stroke-linecap="round"/></svg>
+        </div>
+        <h3>本物と見紛う造形美</h3>
+        <p>花弁の透け感、蕾のふくらみ、葉脈の一本まで。職人の目で選び抜いた高品質シルクフラワーが、胡蝶蘭の凛とした気品を余すことなく再現します。</p>
+      </article>
+      <article class="feature reveal">
+        <div class="feature__icon">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="10" y="14" width="28" height="28" rx="2"/><path d="M10 22h28M24 14v28M24 14c-6 0-8-4-8-6 0-2 2-3 4-2 3 1 4 5 4 8Zm0 0c6 0 8-4 8-6 0-2-2-3-4-2-3 1-4 5-4 8Z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>立札・ラッピング無料</h3>
+        <p>お祝いに欠かせない立札(木札)を無料でお付けします。用途に合わせた上品なラッピングも無料。ご注文時にご指定いただくだけで、贈答の体裁が整います。</p>
+      </article>
+      <article class="feature reveal">
+        <div class="feature__icon">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="24" cy="24" r="16"/><path d="M24 14v10l7 5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>お手入れ不要</h3>
+        <p>水やり、温度管理、植え替えは一切不要。忙しい開店直後のお店でも手を煩わせません。ホコリを払うだけで、いつまでも贈った日の美しさのままです。</p>
+      </article>
+      <article class="feature reveal">
+        <div class="feature__icon">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M8 20l16-10 16 10-16 10L8 20Z" stroke-linejoin="round"/><path d="M14 24v10c0 3 5 6 10 6s10-3 10-6V24" stroke-linecap="round"/></svg>
+        </div>
+        <h3>贈答マナーも安心</h3>
+        <p>立札の書き方や名入れの体裁など、慶事のマナーに精通したスタッフが対応。初めての方でも、失礼のない格調高い贈り物をお届けできます。</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 贈る場面 -->
+<section class="scenes section section--ivory" id="scenes">
+  <div class="section__inner">
+    <p class="section__eyebrow reveal">OCCASIONS</p>
+    <h2 class="section__title reveal">贈る場面</h2>
+  </div>
+  <div class="scenes__marquee" aria-hidden="true">
+    <div class="scenes__track">
+      <span>開店祝い</span><span>◆</span><span>開業祝い</span><span>◆</span><span>就任祝い</span><span>◆</span><span>移転祝い</span><span>◆</span><span>周年祝い</span><span>◆</span><span>新築祝い</span><span>◆</span><span>開院祝い</span><span>◆</span><span>当選祝い</span><span>◆</span>
+      <span>開店祝い</span><span>◆</span><span>開業祝い</span><span>◆</span><span>就任祝い</span><span>◆</span><span>移転祝い</span><span>◆</span><span>周年祝い</span><span>◆</span><span>新築祝い</span><span>◆</span><span>開院祝い</span><span>◆</span><span>当選祝い</span><span>◆</span>
+    </div>
+  </div>
+  <div class="section__inner">
+    <div class="scenes__grid">
+      <article class="scene reveal">
+        <div class="scene__visual scene__visual--a"><span class="scene__kanji">開</span></div>
+        <h3>開店・開業祝いに</h3>
+        <p>新しい門出を華やかに彩る定番の贈り物。枯れないシルクフラワーなら、開店の忙しさの中でもお手入れの負担をかけません。</p>
+      </article>
+      <article class="scene reveal">
+        <div class="scene__visual scene__visual--b"><span class="scene__kanji">昇</span></div>
+        <h3>就任・昇進祝いに</h3>
+        <p>役員就任や昇進のお祝いに。執務室や応接室に置かれても、長期出張や多忙な日々の中で枯らしてしまう心配がありません。</p>
+      </article>
+      <article class="scene reveal">
+        <div class="scene__visual scene__visual--c"><span class="scene__kanji">寿</span></div>
+        <h3>周年・記念日に</h3>
+        <p>創業周年や記念式典の節目に。お祝いの日の輝きがそのまま残り続けるシルクフラワーは、記念品としての意味合いも一層深まります。</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 商品詳細 -->
+<section class="spec section" id="spec">
+  <div class="section__inner">
+    <p class="section__eyebrow reveal">PRODUCT DETAIL</p>
+    <h2 class="section__title reveal">商品詳細</h2>
+    <div class="spec__grid">
+      <div class="spec__visual reveal">
+        <div class="orchid-stage orchid-stage--small" id="specOrchid"></div>
+      </div>
+      <table class="spec__table reveal">
+        <tbody>
+          <tr><th>商品名</th><td>シルクフラワー胡蝶蘭(大輪・3本立て風)</td></tr>
+          <tr><th>種別</th><td>シルクフラワー(高品質造花)</td></tr>
+          <tr><th>カラー</th><td>ホワイト / ピンク / 紅白 / パープル / イエロー / マゼンタ の6色</td></tr>
+          <tr><th>立札</th><td><em>無料</em>(木札・名入れ対応)</td></tr>
+          <tr><th>ラッピング</th><td><em>無料</em>(用途に合わせてお選びします)</td></tr>
+          <tr><th>お手入れ</th><td>不要(水やり・温度管理いっさい不要)</td></tr>
+          <tr><th>おすすめ用途</th><td>開店祝い・開業祝い・就任祝い・移転祝い・周年祝いなど</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ご注文 -->
+<section class="order section section--dark" id="order">
+  <div class="order__glow"></div>
+  <div class="section__inner order__inner">
+    <p class="section__eyebrow reveal">ORDER</p>
+    <h2 class="section__title reveal">大切なお祝いを、<br>山久がお手伝いします。</h2>
+    <p class="order__lead reveal">
+      カラー・立札の名入れ・ラッピングをご指定のうえ、ご注文ください。<br>
+      贈答マナーのご相談もお気軽にどうぞ。
+    </p>
+    <div class="order__actions reveal">
+      <a href="#" class="btn btn--gold btn--large">ご注文はこちら</a>
+      <a href="#" class="btn btn--ghost btn--large">お問い合わせ</a>
+    </div>
+    <div class="hero__badges order__badges reveal">
+      <span class="badge"><strong>選べる</strong>6色</span>
+      <span class="badge">立札<strong>無料</strong></span>
+      <span class="badge">ラッピング<strong>無料</strong></span>
+    </div>
+  </div>
+</section>
+
+<!-- フッター -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <span class="footer__logo-en">YAMAKYU</span>
+      <span class="footer__logo-ja">シルクフラワーの山久</span>
+    </div>
+    <p class="footer__copy">&copy; 2026 シルクフラワーの山久</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
