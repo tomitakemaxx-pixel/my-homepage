@@ -180,9 +180,7 @@
     container.appendChild(svg);
   }
 
-  ["heroOrchid", "aboutOrchid", "colorOrchid", "specOrchid"].forEach(function (id) {
-    buildOrchid(document.getElementById(id));
-  });
+  buildOrchid(document.getElementById("colorOrchid"));
 
   /* ----------------------------------------------------------
      カラー切替
